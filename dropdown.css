@@ -1,0 +1,51 @@
+/* img{ */
+    
+
+    /* position :absolute = parent element will access the centre point bt content will not occupy any space */
+    /* position: relative: content will access centre point bt it will occupy original position space */
+    /* position:sticky : content will access centre point and stickk on the same position. no movement  */
+    
+/* } */
+
+body{
+margin: 0px;
+padding: 0px;
+/* background-color: rgb(48, 122, 17); */
+background-image: url(./Images/cars.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#cont{
+background-color: rgba(141, 101, 15, 0.199);
+}
+#nav{
+    margin: 0px;
+    display:flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+/* spacing elemnt */
+#nav li a{          
+
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: rgb(198, 193, 220);
+}
+
+#menu{
+
+    list-style-type: none;
+    padding: 0px;
+    position:absolute;
+    display: none;
+    background-color: rgba(53, 64, 9, 0.489);
+
+}
+
+#drop:hover #menu{
+    display: block;
+}
+
+#nav li a:hover{color: yellow;}
